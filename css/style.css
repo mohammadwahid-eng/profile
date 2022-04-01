@@ -77,3 +77,37 @@
 .bi-house-door {
 	color: #445571;
 }
+
+@media print {
+	:root {
+		--bs-body-font-size: 0.75rem;
+	}
+	.h1, .h2, .h3, .h4, .h5 , h1, h2, h3, h4, h5 {
+		font-size: 0.875rem;
+	}
+	.h6, h6 {
+		font-size: var(--bs-body-font-size);
+	}
+	.progress-dots {
+		font-size: .3rem;
+		gap: 2px;
+	}
+	.mb-4 {
+		margin-bottom: 1rem !important;
+	}
+	.mt-5 {
+		margin-top: 1.5rem !important;
+	}
+	.p-5 {
+		padding: 1.5rem !important;
+	}
+	.display-4 {
+		font-size: 2rem !important;
+	}
+	.fs-5.lsp-3 {
+		font-size: 0.75rem !important;
+	}
+	i.fs-2 {
+		font-size: 1rem !important;
+	}
+}
