@@ -1,0 +1,79 @@
+:root {
+	--bs-heading-font-family: 'Playfair Display', serif;
+	--bs-font-sans-serif: 'Roboto';
+	--bs-body-font-weight: 300;
+	--bs-body-color: #000000;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	font-family: var(--bs-heading-font-family);
+	font-weight: 700;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.progress {
+	height: .35rem;
+}
+
+.progress-dots {
+	color: var(--bs-gray-200);
+	font-size: .75rem;
+	display: flex;
+	gap: 10px;
+}
+
+.position-relative > .bi-circle {
+	color: var(--bs-gray-300);
+    margin-left: -8.5px;
+    background: white;
+}
+
+.photo-box {
+	margin-right: -1.5rem;
+}
+
+.photo-box img {
+	max-width: 100%;
+	height: auto;
+}
+
+.hero-box {
+	margin-left: -1.5rem;
+}
+
+.lsp-3 {
+	letter-spacing: 3px;
+}
+
+.bi-facebook {
+	color: #3b5998;
+}
+
+.bi-twitter {
+	color: #00acee;
+}
+
+.bi-linkedin {
+	color: #0e76a8;
+}
+
+.bi-github {
+	color: #333333;
+}
+
+.bi-youtube {
+	color: #FF0000;
+}
+
+.bi-whatsapp {
+	color: #25D366;
+}
+
+.bi-envelope,
+.bi-phone,
+.bi-house-door {
+	color: #445571;
+}
