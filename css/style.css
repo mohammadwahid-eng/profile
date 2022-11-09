@@ -613,7 +613,7 @@ app marcup
   pointer-events: none;
 }
 .art-app .art-app-wrapper .art-app-container .art-info-bar .art-info-bar-frame .art-scroll-frame .scroll-content {
-  padding: 240px 0 50px;
+  padding: 220px 0 50px;
 }
 .art-app .art-app-wrapper .art-app-container .art-content {
   position: relative;
@@ -823,7 +823,7 @@ info bar
   z-index: 99999;
   width: 100%;
   padding: 30px;
-  height: 235px;
+  height: 208px;
   background: linear-gradient(159deg, rgba(37, 37, 50, 0.98) 0%, rgba(35, 35, 45, 0.98) 100%);
   text-align: center;
   box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
@@ -1922,8 +1922,8 @@ content
 
 /* ----- brands ----- */
 .art-brand {
-  width: 120px;
-  height: 120px;
+  width: 60px;
+  height: 60px;
   margin: 0 auto;
   display: block;
   margin-bottom: 30px;
